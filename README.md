@@ -17,6 +17,6 @@ This app allows the user to calculate the EXP requirement to get from a given st
 # How to build:
  `cd maple-ui` and use the command: `mvn spring-boot:run`
  
- Once the Springboot application is ready to be queried, open a separate terminal, `cd ExpCalc` and use the command: `npm start` (or `yarn start`)
+ Once the Springboot application is running, open a separate terminal, `cd ExpCalc` and use the command: `npm start` (or `yarn start`)
 
 
