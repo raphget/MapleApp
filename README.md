@@ -15,8 +15,8 @@ This app allows the user to calculate the EXP requirement to get from a given st
 * Backend API takes a starting level, ending level and character type as pathparameters and returns the EXP requirement.
 
 # How to build:
- cd into the MapleApp/maple-ui directory and use the command: `mvn spring-boot:run`
+ `cd maple-ui` directory and use the command: `mvn spring-boot:run`
  
- Once the Springboot application is ready to be queried, open a separate terminal and cd into the Maple/ExpCalc and use the command: `npm start` (or `yarn start`)
+ Once the Springboot application is ready to be queried, open a separate terminal and `cd ExpCalc` and use the command: `npm start` (or `yarn start`)
 
 
