@@ -8,7 +8,7 @@ This app allows the user to calculate the EXP requirement to get from a given st
   
 # /maple-ui
 * React.js, HTML/CSS 
-* Frontend React web application which fetches data from the backend API and displays for the user. 
+* Frontend React web application which takes user input and fetches data from the backend API to display for the user. 
 
 # /ExpCalc
 * JAVA, Springboot, Maven 
