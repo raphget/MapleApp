@@ -1,6 +1,6 @@
 # MapleApp
 
-This app allows the user to calculate the EXP requirement to get from a given start level to a given end level. 
+This webapp allows the user to calculate the EXP requirement to get from a given start level to a given end level. 
 
   MapleApp/maple-ui  <--- Contains all Frontend Code
   
