@@ -8,26 +8,23 @@ async function getExp(stlvl,endlvl,type){
   }else if(endlvl === ''){
     alert("Please enter a valid end level (1 - 300)")
   }else{
+    // fetch API from localhost:8080/exp/{stlvl}/{endlvl}/{type}
     await fetch('/exp/'+stlvl+'/'+endlvl+'/'+type)
     .then(response => response.json())
     .then(data =>{
-      console.log(data.exp)
+      console.log(data)
       document.getElementById("output").innerHTML = data.exp;  
       }
       );
   }
-  
 }
 
 function App() {
-
   return (
-
-    
+<div>
   <main className="h-screen w-screen bg-cover text-gray-400 bg-gray-900 body-font" style={{ backgroundImage:`url(${"mapleback2.jpg"})`}} >
 
     <div className="container w-full mx-auto pl-20 flex-row">
-
 
           <div className="container w-full pt-36 pr-60">
             <h2 className ="text-black text-5xl font-itim mt-0 mb-6"> Maple EXP Calculator </h2>
@@ -38,7 +35,6 @@ function App() {
           </div>
 
           <div className="container w-full items-start">
-          
           
             <select className = "rounded" id = "type">
               <option value="NONE">NONE</option>
@@ -52,10 +48,12 @@ function App() {
             </button>
           </div>
           <div>
-          <p className = "font-itim my-10 text-gray-700 text-4xl" id = "output"></p>
+          <p className = "font-itim my-10 text-gray-700 text-4xl" id = "output">
+          </p>
           </div>
     </div>
-  </main>  
+  </main> 
+</div> 
   );
 }
 

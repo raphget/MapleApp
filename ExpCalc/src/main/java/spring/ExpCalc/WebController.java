@@ -14,6 +14,7 @@ public class WebController {
 	// 	response.setexp();
 	// 	return response;
 	// }
+	
 	@RequestMapping(path = "/exp/{stlvl}/{endlvl}/{type}", method = RequestMethod.GET)
 	public Maple Exp(@PathVariable int stlvl, @PathVariable int endlvl, @PathVariable String type) {
 		Maple response = new Maple();
