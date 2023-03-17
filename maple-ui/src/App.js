@@ -28,7 +28,6 @@ function App() {
 
           <div className="container w-full pt-36 pr-60">
             <h2 className ="text-black text-5xl font-itim mt-0 mb-6"> Maple EXP Calculator </h2>
-           
             <input placeholder = "Start Level" className="mb-5 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"type="number" id="stlvl"/>
             <input placeholder = "End Level" className="mb-5 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"type="number" id="endlvl"/>
           

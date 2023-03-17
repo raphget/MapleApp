@@ -1,0 +1,8 @@
+# Files to ignore
+.DS_Store
+.vscode
+
+# Repositories to ignore
+maple-ui/node_modules
+maple-ui/build
+ExpCalc/.mvn/wrapper
